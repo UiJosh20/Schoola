@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 /* google fonts  */
+body{
+  background-color: aliceblue;
+}
 
 .poppins-thin {
     font-family: "Poppins", sans-serif;
@@ -119,4 +122,10 @@
 
 input::placeholder{
     font-size: 12px;
+}
+input{
+  font-size: 12px;
+}
+.moreinfo{
+  font-size: 13px;
 }
